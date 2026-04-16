@@ -4,7 +4,7 @@
 This is a a port of Star Warfare: Alien Invasion for the PlayStation Vita, playable with the Vita's controls + with trophies.
 
 # How To Install
-* Get a hold of the game's APK file (version 3.01) and extract it into an folder
+* Get a hold of the game's latest APK file (version 3.01) and extract it into an folder
 * In this folder, grab the following file: ``assets/bin/Data/level0``
 * Download the .xdelta patch from this repository's release page
 * Use XDelta3 to patch ``level0`` with ``patch_psp2.xdelta``
