@@ -7,15 +7,15 @@ This is a a port of Star Warfare: Alien Invasion for the PlayStation Vita, playa
 * Get a hold of the game's latest version (3.01), turn it into an APK and extract it into an folder
 * In this folder, grab the following file: ``level0``
 ```
-   └── StarWarfare.apk/
-    ├── assets/
-    ├── bin/
-    ├── Data/
-    └── level0 <- this
+StarWarfare.apk
+└── assets/
+    └── bin/
+        └── Data/
+            └── level0  <-- Target File
 ```
-* Download the .xdelta patch from this repository's release page
-* Use XDelta3 (from this repo's release page) to patch ``level0`` with ``patch_psp2.xdelta``
-* Open it up as an archive in your program of choice, e.g. 7Zip
+* Download the .zip file from this repository's release page and extract it to a new folder
+* Put ``level0`` into that newly extracted folder and run "APPLY_PATCH.bat"
+* Once it says "Done!", open it up as an archive in your program of choice, e.g. 7Zip
 * Download the VPK file from this repository's release page
 * Install the VPK onto your Vita using VitaShell
 * Using VitaShell, grab the contents from the patched archive and move/copy them to ``ux0:app/STWR00001/``
