@@ -16,5 +16,7 @@ This is a a port of Star Warfare: Alien Invasion for the PlayStation Vita, playa
 
 # Credits
 Aj for helping me with the port
+
 Zweronz for the decompile of the game
+
 Freyr Games for the original game
