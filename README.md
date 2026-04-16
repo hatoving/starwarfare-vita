@@ -22,7 +22,7 @@ StarWarfare.apk
 * Launch the app and enjoy!
 
 # Credits
-Aj for helping me with the port
+AJ170 for helping me with the port
 
 Zweronz for the decompile of the game
 
