@@ -13,3 +13,7 @@ This is a a port of Star Warfare: Alien Invasion for the PlayStation Vita, playa
 * Install the VPK onto your Vita using VitaShell
 * Using VitaShell, grab the contents from the patched archive and move/copy them to ``ux0:app/STWR00001/``
 * Launch the app and enjoy!
+
+# Credits
+Aj for helping me with the port
+Zweronz for the decompile of the game
