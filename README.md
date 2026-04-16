@@ -5,9 +5,16 @@ This is a a port of Star Warfare: Alien Invasion for the PlayStation Vita, playa
 
 # How To Install
 * Get a hold of the game's latest version (3.01), turn it into an APK and extract it into an folder
-* In this folder, grab the following file: ``assets/bin/Data/level0``
+* In this folder, grab the following file: ``level0``
+```
+   └── StarWarfare.apk/
+    ├── assets/  <- ../steamapps/common/Hollow Knight
+    ├── bin/
+    ├── Data/
+    └── level0
+```
 * Download the .xdelta patch from this repository's release page
-* Use XDelta3 to patch ``level0`` with ``patch_psp2.xdelta``
+* Use XDelta3 (from this repo's release page) to patch ``level0`` with ``patch_psp2.xdelta``
 * Open it up as an archive in your program of choice, e.g. 7Zip
 * Download the VPK file from this repository's release page
 * Install the VPK onto your Vita using VitaShell
