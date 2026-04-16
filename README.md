@@ -8,10 +8,10 @@ This is a a port of Star Warfare: Alien Invasion for the PlayStation Vita, playa
 * In this folder, grab the following file: ``level0``
 ```
    └── StarWarfare.apk/
-    ├── assets/  <- ../steamapps/common/Hollow Knight
+    ├── assets/
     ├── bin/
     ├── Data/
-    └── level0
+    └── level0 <- this
 ```
 * Download the .xdelta patch from this repository's release page
 * Use XDelta3 (from this repo's release page) to patch ``level0`` with ``patch_psp2.xdelta``
