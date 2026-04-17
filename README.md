@@ -23,10 +23,15 @@ StarWarfare.apk
 
 # Controls
 Left Stick - Move
+
 Right Stick - Look
+
 R - Shoot
+
 Start - Pause
+
 D-Pad - Weapon Switching
+
 Use the touchscreen for everything else
 
 # Credits
