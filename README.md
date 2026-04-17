@@ -21,6 +21,14 @@ StarWarfare.apk
 * Using VitaShell, extract the contents of ``psp2_patch.zip`` and move/copy them to ``ux0:app/STWR00001/``
 * Launch the app and enjoy!
 
+# Controls
+Left Stick - Move
+Right Stick - Look
+R - Shoot
+Start - Pause
+D-Pad - Weapon Switching
+Use the touchscreen for everything else
+
 # Credits
 AJ170 for helping me with the port
 
