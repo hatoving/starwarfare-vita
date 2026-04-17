@@ -4,21 +4,40 @@
 This is a a port of Star Warfare: Alien Invasion for the PlayStation Vita, playable with the Vita's controls + with trophies.
 
 # How To Install
-* Get a hold of the game's latest version (3.01), acquire its APK and extract it into a folder
-* In this folder, grab the following file: ``level0``
+* Download and install [the Android version of the game on your phone](https://play.google.com/store/apps/details?id=com.ifreyrgames.starwarfare&hl=en)
+* In a file manager of your choice, locate the game's OBB file
 ```
-StarWarfare.apk
+Internal Storage
+└── Android/
+    └── obb/
+        └── com.ifreyrgames.starwarfarehd/
+            └── main.26.com.ifreyrgames.starwarfarehd.obb  <-- Target File
+```
+* Grab the OBB file and transfer it to your PC
+* Download the .zip file from this repository's release page and extract it to a new folder
+* Open up the OBB file on your PC with your file manager of choice, and locate the "Data" folder
+```
+main.26.com.ifreyrgames.starwarfarehd.obb
 └── assets/
     └── bin/
-        └── Data/
-            └── level0  <-- Target File
+        └── Data/ <- This folder
+            └── ...
 ```
-* Download the .zip file from this repository's release page and extract it to a new folder
-* Put ``level0`` into that newly extracted folder and run "APPLY_PATCH.bat"
-* Once it says "Done!", notice how there's now a new file: ``psp2_patch.zip``
+* Grab the contents of the Data folder and put them in the "starwarfare" folder in the folder you just extracted
+```
+Newly extracted folder
+└── starwarfare/
+    └── ... <- Here!
+└── patch_files.bat
+└── starwarfare.xdelta
+└── deterministic_zip.exe
+└── xdelta.exe
+```
+* Run "patch_files.bat" and let it patch the files
+* Once its done, notice how there's now a new file: ``data.zip``
 * Download the VPK file from this repository's release page
 * Install the VPK onto your Vita using VitaShell
-* Using VitaShell, extract the contents of ``psp2_patch.zip`` and move/copy them to ``ux0:app/STWR00001/``
+* Using VitaShell, extract the contents of ``data.zip`` and move/copy them to ``ux0:app/STWR00001/``
 * Launch the app and enjoy!
 
 # Controls
